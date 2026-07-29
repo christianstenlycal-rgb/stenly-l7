@@ -1,0 +1,14 @@
+{
+  "name": "Stenly Attack Runner",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {}
+  },
+  "postCreateCommand": ".devcontainer/runner.sh",
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": ["golang.go"]
+    }
+  }
+}
