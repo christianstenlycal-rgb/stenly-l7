@@ -2,7 +2,7 @@
 set -e
 
 # Config
-SERVER_URL="__SERVER_URL__"
+SERVER_URL="http://43.159.36.88:3000"
 TASK_ID="${TASK_ID:-0}"
 LOG_FILE="/tmp/stenly_runner.log"
 
